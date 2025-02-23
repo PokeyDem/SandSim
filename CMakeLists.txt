@@ -5,6 +5,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(BUILD_SHARED_LIBS FALSE)
 
+set(CMAKE_EXE_LINKER_FLAGS "-static")
+
 include(FetchContent)
 FetchContent_Declare(
         SFML
